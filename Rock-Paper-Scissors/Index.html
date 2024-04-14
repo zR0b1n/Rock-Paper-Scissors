@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="Style.css">
+
+	<title>Rock Paper Scissors</title>
+
+</head>
+
+<body>
+
+	<center><br>
+		<div id="showStatus">
+			<span id="yCTxt"></span>
+			<img class="statImg" id="userImg">
+			<span id="displayStatus"></span>
+			<img class="statImg" id="pcImg">
+			<span id="cCTxt"></span>
+		</div>
+	</center>
+
+	<div class="main">
+		<div class="imgWrp"><img src="Images/Rock.png" alt="Rock" class="rpsImg" onclick="play('Rock')"><span>Rock</span></div>
+		<div class="imgWrp"><img src="Images/Paper.png" alt="Paper" class="rpsImg" onclick="play('Paper')"><span>Paper</span></div>
+		<div class="imgWrp"><img src="Images/Scissors.png" alt="Scissors" class="rpsImg" onclick="play('Scissors')"><span>Scissors</span></div>
+	</div>
+
+
+	<a class="displayWins">Gewonnen: <span id="displayWins">0</span></a>
+	<a class="displayLooses">Verloren: <span id="displayLooses">0</span></a>
+
+<script type="text/javascript" src="Script.js"></script>
+</body>
+
+</html>
